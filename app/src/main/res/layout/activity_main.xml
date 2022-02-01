@@ -59,6 +59,7 @@
     <androidx.recyclerview.widget.RecyclerView
         android:layout_marginTop="5dp"
         app:spanCount="1"
+        tools:listitem="@layout/food_custom"
         app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
         android:id="@+id/recyclerView"
         android:layout_width="match_parent"
