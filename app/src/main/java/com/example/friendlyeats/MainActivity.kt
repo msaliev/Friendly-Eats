@@ -22,6 +22,9 @@ class MainActivity : AppCompatActivity() {
     }
 
 
+
+
+
     @SuppressLint("WrongConstant")
     private fun initViews() {
         recyclerView.layoutManager = LinearLayoutManager(this, LinearLayout.VERTICAL, false)
